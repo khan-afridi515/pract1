@@ -27,6 +27,7 @@ const List = () => {
          <div className='flex gap-1 justify-center items-center mb-2'>
           <input type="text"  className='w-60 border border-black p-2' value={text} onChange={(e)=>setText(e.target.value)}></input>
           <button type="button" className="p-2 bg-red-500 text-white" onClick={Add}>Add</button>
+          <p>This is my  project</p>
          </div>
 
          <div className='my-8'>
